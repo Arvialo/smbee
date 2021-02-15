@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from main.init import smbConn
 import argparse
 

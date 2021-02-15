@@ -1,6 +1,7 @@
 import smb
 from smb.SMBConnection import *
 import os
+from main.error import Error
 
 class sharesFunction:
 
