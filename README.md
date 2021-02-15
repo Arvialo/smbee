@@ -23,13 +23,13 @@ optional arguments:
   -d, --download        download all files
   ```
   
-  [+] INSTALLATION : 
+  **[+] INSTALLATION : **
   
   `git clone https://github.com/Arvialo/smbee`<br>
   `cd smbee/`<br>
   `pip3 install smb`
   
-  [+] EXAMPLES : 
+  **[+] EXAMPLES : **
   <img alt="example1" src="images/example1.png"><br>
   <img alt="example2" src="images/example2.png"><br>
   <img alt="example3" src="images/example3.png">
