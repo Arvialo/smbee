@@ -23,7 +23,7 @@ optional arguments:
   -d, --download        download all files
   ```
   
-  **[+] INSTALLATION :**
+  **[+] INSTALLATION :**<br>
   
   `git clone https://github.com/Arvialo/smbee`<br>
   `cd smbee/`<br>
