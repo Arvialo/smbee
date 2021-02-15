@@ -45,7 +45,10 @@ class sharesFunction:
         if not os.path.exists(folder+"/"+path):
             os.makedirs(folder+"/"+path+"/")
         file_obj = open(folder+"/"+path+"/"+filename,"wb")
-        conn.retrieveFile(share,path+"/"+filename,file_obj)
+        if path == "/":
+            conn.retrieveFile(share,path+filename,file_obj)
+        else:
+            conn.retrieveFile(share,path+"/"+filename,file_obj)
         file_obj.close()
         if not GETCONTENT:
             print("\33[34m[+] UPLOADED !\33[0m\t\t"+"\t"+"\33[31m"+folder+path+"/"+filename+"\33[0m")
