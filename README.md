@@ -25,7 +25,7 @@ optional arguments:
   
   **[+] INSTALLATION :**<br>
   
-  `git clone https://github.com/Arvialo/smbee`<br>
+  `git clone https://github.com/Arvialo/smbee.git`<br>
   `cd smbee/`<br>
   `pip3 install smb`
   
